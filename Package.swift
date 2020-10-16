@@ -21,8 +21,8 @@ let package = Package(
     // Targets can depend on other targets in this package, and on products in packages this package depends on.
     .binaryTarget(
       name: "DivyaSwiftFramework",
-      url: "https://github.com/DivMewada/DivyaXCFrameworkSwiftPackage/releases/download/1.0.4/DivyaSwiftFramework.xcframework.zip",
-      checksum: "ef811332115360cc1c9b1cb336a08385b56f7553312937e80caf359546ae9a7f"
+      url: "https://github.com/DivMewada/DivyaXCFrameworkSwiftPackage/releases/download/1.0.5/DivyaSwiftFramework.xcframework.zip",
+      checksum: "26152179859e4202955c8978b27c00f79b0f8b03a41db282ead42b397db31473"
     )
   ]
 )
