@@ -19,16 +19,10 @@ let package = Package(
   targets: [
     // Targets are the basic building blocks of a package. A target can define a module or a test suite.
     // Targets can depend on other targets in this package, and on products in packages this package depends on.
-    .target(
-      name: "DivyaXCFrameworkSwiftPackage",
-      dependencies: []),
     .binaryTarget(
-      name: "DivyaSwiftXCFramework",
+      name: "DivyaXCFrameworkSwiftPackage",
       url: "https://github.com/DivMewada/DivyaXCFrameworkSwiftPackage/releases/download/1.0.0/DivyaSwiftXCFramework.xcframework.zip",
       checksum: "2bac19ac3ba80ab4ce4d42359c9b00a344dc959bf1e84fad9ba94e03414bee80"
-    ),
-    .testTarget(
-      name: "DivyaXCFrameworkSwiftPackageTests",
-      dependencies: ["DivyaXCFrameworkSwiftPackage"]),
+    )
   ]
 )
