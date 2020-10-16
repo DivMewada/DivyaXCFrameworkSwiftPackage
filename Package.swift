@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-  name: "DivyaXCFrameworkSwiftPackage",
+  name: "DivyaSwiftXCFrameworkKit",
   platforms: [.iOS(.v12)],
   products: [
     // Products define the executables and libraries a package produces, and make them visible to other packages.
     .library(
-      name: "DivyaXCFrameworkSwiftPackage",
-      targets: ["DivyaXCFrameworkSwiftPackage"]),
+      name: "DivyaSwiftXCFrameworkKit",
+      targets: ["DivyaSwiftFramework"]),
   ],
   dependencies: [
     // Dependencies declare other packages that this package depends on.
@@ -20,9 +20,9 @@ let package = Package(
     // Targets are the basic building blocks of a package. A target can define a module or a test suite.
     // Targets can depend on other targets in this package, and on products in packages this package depends on.
     .binaryTarget(
-      name: "DivyaXCFrameworkSwiftPackage",
-      url: "https://github.com/DivMewada/DivyaXCFrameworkSwiftPackage/releases/download/1.0.0/DivyaSwiftXCFramework.xcframework.zip",
-      checksum: "2bac19ac3ba80ab4ce4d42359c9b00a344dc959bf1e84fad9ba94e03414bee80"
+      name: "DivyaSwiftFramework",
+      url: "https://github.com/DivMewada/DivyaXCFrameworkSwiftPackage/releases/download/1.0.4/DivyaSwiftFramework.xcframework.zip",
+      checksum: "ef811332115360cc1c9b1cb336a08385b56f7553312937e80caf359546ae9a7f"
     )
   ]
 )
