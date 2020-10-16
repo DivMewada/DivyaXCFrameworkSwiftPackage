@@ -23,8 +23,8 @@ let package = Package(
       name: "DivyaXCFrameworkSwiftPackage",
       dependencies: []),
     .binaryTarget(
-      name: "DivyaXCFrameworkSwiftPackageKit",
-      url: "https://github.com/DivMewada/DivyaSwiftXCFramework/blob/main/DivyaSwiftXCFramework.xcframework.zip",
+      name: "DivyaSwiftXCFramework",
+      url: "https://github.com/DivMewada/DivyaXCFrameworkSwiftPackage/releases/download/1.0.0/DivyaSwiftXCFramework.xcframework.zip",
       checksum: "2bac19ac3ba80ab4ce4d42359c9b00a344dc959bf1e84fad9ba94e03414bee80"
     ),
     .testTarget(
