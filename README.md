@@ -1,3 +1,4 @@
 # DivyaXCFrameworkSwiftPackage
 
-A description of this package.
+A swift package for xcframework
+
